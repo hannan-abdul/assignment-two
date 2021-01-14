@@ -14,6 +14,7 @@ h1{
 }
 .btn-custom:hover{
     color: white;
+    background-color: #5ea926;
 }
 .icon-pad{
     padding-right: 8px;
@@ -24,7 +25,7 @@ header{
 header h1{
     font-size: 80px;
     font-weight: 500;
-    line-height: 45px;
+    line-height: 80px;
 }
 span{
     color: #FABE4C;
@@ -41,13 +42,17 @@ img{
 .jacket-card{
     border: 0;
     padding: 16px;
-    align-items: center;
     border-radius: 15px;
+    text-align: center;
 }
 .jacket-feature-image{
     background-color: #F1F1F1;
     border-radius: 15px;
     padding: 15px 40px;
+    transition-duration: 0.3s;
+}
+.jacket-feature-image:hover{
+    box-shadow: 4px 6px 8px -3px #8888888c;
 }
 .jacket-feature-image img{
     height: 300px;
@@ -65,7 +70,6 @@ img{
 .jacket-card-footer span{
     font-size: 36px;
     font-weight: 700;
-    margin-right: 35px;
 }
 .jacket-section-title{
     margin: 35px 0;
@@ -86,6 +90,132 @@ img{
 .cart-section-details h3{
     font-size: 25px;
 }
+footer{
+    background-color: #3ed9c761;
+    margin: 40px 0;
+    padding: 35px 0;
+}
+footer .btn-custom{
+    
+padding: 5px 20px;
+}
 
-
-
+@media (max-width: 1199px){
+    header h1 {
+        font-size: 70px;
+    }
+    .jacket-feature-image img {
+        height: 230px;
+    }
+    .jacket-card-footer span {
+        font-size: 30px;
+    }
+    .btn-custom {
+        padding: 7px 12px;
+        font-size: 15px;
+    }
+    .cart-section-details h3 {
+        font-size: 22px;
+    }
+    .cart-section-shadow {
+        padding: 15px;
+    }
+}
+@media (max-width: 991px){
+    header h1 {
+        font-size: 55px;
+        line-height: 50px;
+    }
+    .jacket-feature-image img {
+        height: 135px;
+    }
+    .jacket-card p{
+        font-size: 15px;
+    }
+    .jacket-card-footer span {
+        font-size: 22px;
+    }.card-body-pad {
+        padding: 10px 0;
+    }
+    .btn-custom {
+        padding: 5px 5px;
+        font-size: 14px;
+    }
+    .cart-section-details {
+        margin: 0 5px;
+    }
+    .cart-section-details h3 {
+        font-size: 18px;
+    }
+    .cart-section-details p {
+        font-size: 14px;
+    }
+    footer h1{
+        font-size: 34px;
+    }
+}
+@media (max-width: 767px){
+    header h1 {
+        font-size: 80px;
+        line-height: 80px;
+        margin-top: 10px;
+    }
+    header p{
+        font-size: 22px;
+    }
+    .jacket-feature-image img {
+        height: 300px;
+    }
+    .jacket-card-footer span {
+        font-size: 36px;
+    }
+    .btn-custom {
+        padding: 10px 18px;
+        font-size: 16px;
+    }
+    .jacket-card p {
+        font-size: 18px;
+    }
+    .jacket-feature-image {
+        padding: 15px 10px;
+    }
+    .jacket-card {
+        padding: 30px;
+        margin: 0 55px;
+    }
+    .women-section{
+        text-align: center;
+    }
+    .men-seciton{
+        text-align: center;
+    }
+    .jacket-section-title{
+        font-size: 50px;
+    }
+    .col-reverse{
+        flex-direction: column-reverse;
+    }
+    .b-radius {
+        margin: 20px 55px;
+    }
+    .cart-section-shadow {
+        display: block !important;
+        text-align: center;
+    }
+    .cart-section-shadow img {
+        height: 100px;
+    }
+    .cart-section-details h3 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .cart-section-details p {
+        font-size: 20px;
+    }
+    .top-margin{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 575px){
+    
+}
