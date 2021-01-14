@@ -180,8 +180,8 @@ padding: 5px 20px;
         padding: 15px 10px;
     }
     .jacket-card {
-        padding: 30px;
-        margin: 0 55px;
+        padding: 20px;
+        margin: 0 8px;
     }
     .women-section{
         text-align: center;
@@ -196,7 +196,7 @@ padding: 5px 20px;
         flex-direction: column-reverse;
     }
     .b-radius {
-        margin: 20px 55px;
+        margin: 20px 8px;
     }
     .cart-section-shadow {
         display: block !important;
@@ -217,5 +217,9 @@ padding: 5px 20px;
     }
 }
 @media (max-width: 575px){
+    .jacket-card {
+        padding: 20px;
+        margin: 0 8px;
+    }
     
 }
